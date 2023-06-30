@@ -1,0 +1,8 @@
+.pageNotFound{
+    min-height: 80vh;
+    background-color: #fff;
+}
+
+.pageNotFound h1{
+    color:#dc3545;
+}

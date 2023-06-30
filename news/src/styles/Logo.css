@@ -1,0 +1,14 @@
+.logo h1 {
+    font-family: var(--vuja);
+    font-size: 4.8rem;
+    font-weight: 300;
+    margin-left: 2rem;
+    color: transparent;
+    -webkit-text-stroke: 2.5px var(--colorDark);
+    text-shadow: none;
+
+}
+
+.logo a {
+    text-decoration: none;
+}

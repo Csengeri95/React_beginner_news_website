@@ -1,0 +1,7 @@
+.impressum {
+    min-height: 82vh;
+}
+
+.impressum p {
+    cursor: pointer;
+}

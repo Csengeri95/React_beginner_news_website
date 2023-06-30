@@ -1,0 +1,125 @@
+.culture {
+    font-family: var(--bebasNeue);
+    min-height: 82vh;
+}
+
+.culture .main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.culture .main .articles{
+    flex-direction: column;
+    border:none;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 95%;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.culture .main .articles:hover{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.culture .main .articles::after {
+    content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.4px;
+  background-color: var(--colorDark);
+  }
+
+.culture .main .articles img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    
+}
+
+.culture .main .articles .articles-body h2{
+    color: var(--orange);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.culture .main .articles .articles-body h3 {
+    font-weight: 400;
+}
+
+
+
+.culture .pagination {
+    width: 80%;
+    height: 25px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.culture .pagination a {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.culture .pagination a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.culture .pagination .paginationActive a {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--colorDark);
+}
+
+@media screen and (min-width:720px) {
+    .culture .main .articles{
+        flex-direction: row;
+        height: auto;
+    }
+
+
+}
+
+@media screen and (min-width:1160px) {
+    .culture .main .articles {
+        width: 85%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .culture .main .articles {
+        width: 70%;
+        max-height: 200px;
+    }
+}
+
+@media screen and (min-width:720px) {
+    .culture .main .articles img {
+        width: 40%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:720px) {
+    .culture .main .articles .articles-body {
+        padding-left: 20px;
+    }
+
+    .culture .main .articles .articles-body h2,
+    h3,
+    p {
+        margin-bottom: .3rem;
+    }
+}

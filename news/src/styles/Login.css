@@ -1,0 +1,85 @@
+.login {
+    font-family: var(--bebasNeue);
+    min-height: 82vh;
+}
+
+.login .form-container {
+    border: 1px solid #333;
+    border-radius: 1rem;
+    padding: 20px;
+    min-height: 200px;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+
+.login .form-container form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .form-container form label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.login .form-container form input {
+    padding: 10px;
+}
+
+.login .form-container form button {
+    cursor: pointer;
+    padding: 7px 14px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    font-family: var(--bebasNeue);
+}
+
+.login .form-container form input,
+.login .form-container form button {
+    border-radius: 5px;
+    outline: none;
+}
+
+.login .form-container form .error {
+    color: var(--error);
+    ;
+    font-size: 1.1rem;
+}
+
+.login a {
+    text-decoration: none;
+    color: var(--red);
+    font-size: 1.1rem;
+
+}
+
+
+@media screen and (min-width:692px) {
+    .login .form-container form label {
+        font-size: 1.3rem;
+    }
+
+    .login .form-container form input {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .login .form-container {
+        width: 50%;
+    }
+
+    .login .form-container form input {
+        width: 50%;
+    }
+
+    .login a {
+        font-size: 1.3rem;
+    }
+}

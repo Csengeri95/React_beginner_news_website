@@ -1,0 +1,23 @@
+.footer {
+    min-height: 12vh;
+    background: var(--navbar-background);
+    font-family: var(--montSerrat);
+    font-weight: 500;
+    color: var(--colorDark);
+
+}
+
+.footer a {
+    cursor: pointer;
+    transition: all .8s ease;
+}
+
+
+.footer a:hover {
+    color: var(--colorLighter);
+}
+
+.footer a:nth-child(3):hover,
+.footer a:nth-child(4):hover {
+    color: var(--crimsonRed);
+}

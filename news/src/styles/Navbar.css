@@ -1,0 +1,207 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background: var(--navbar-background);
+    color: var(--colorDarkGray);
+    font-family: var(--montSerrat);
+}
+
+
+.navbar-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: 75%;
+
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: var(--colorLighter);
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin: 0 1rem;
+}
+
+.navbar-links .active {
+    color: var(--redColor);
+}
+
+.navbar-links a:hover {
+    color: var(--redColor);
+}
+
+
+
+.profile-container {
+    display: flex;
+    justify-content: left;
+}
+
+.profile-container img {
+    height: 50px;
+    width: 50px;
+    border: 2px solid var(--colorLighter);
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+    position: relative;
+}
+
+
+.profile-container .profile-links {
+    position: absolute;
+    top: 60px;
+    right: 5px;
+    z-index: 55;
+    width: fit-content;
+    background-color: var(--colorLighter);
+    box-shadow: 10px 11px 2px -3px rgba(180, 171, 171, 0.4);
+    -webkit-box-shadow: 10px 11px 2px -3px rgba(180, 171, 171, 0.4);
+    -moz-box-shadow: 10px 11px 2px -3px rgba(180, 171, 171, 0.4);
+}
+
+.profile-container .profile-links ul {
+    list-style: none;
+}
+
+
+.profile-container .profile-links li {
+    cursor: pointer;
+    color: var(--colorDarkGray);
+    padding: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.profile-container .profile-links li:hover {
+    background-color: rgba(0, 0, 0, .1);
+    padding-left: 1.5rem;
+}
+
+.profile-mobile {
+    display: none;
+}
+
+.navbar .btn {
+    cursor: pointer;
+    padding: 4px 10px;
+    font-size: 1.1rem;
+    border-radius: .5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+    background-color: var(--redColor);
+    outline: none;
+    border: none;
+    font-family: var(--montSerrat);
+    transition: all .4s linear;
+
+}
+
+.navbar .btn:hover {
+    background-color: var(--buttonHover);
+}
+
+
+
+.navbar .Icon {
+    border: none;
+    font-size: 1.5rem;
+    background: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menus {
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+    .navbar {
+        position: relative;
+        top: 0;
+        width: 100%;
+        display: flex;
+
+    }
+
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+    }
+
+
+    .navbar-mobile {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 65px;
+        right: 0px;
+        list-style: none;
+        background-color: #545454;
+        width: inherit;
+        z-index: 55;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .navbar-mobile a {
+        color: #fff;
+        text-align: center;
+        padding: .4rem;
+        transition: all .4s ease;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .navbar-mobile .profil-links {
+        width: 20%;
+        top: 200px;
+    }
+
+    .navbar-mobile .profil-links a {
+        color: #000;
+    }
+
+    .navbar-mobile .btn {
+        border-radius: 0;
+        font-weight: 600;
+    }
+
+    .navbar .Icon {
+        display: block;
+        position: absolute;
+        right: 10px;
+        color: #333;
+    }
+
+    .profile-container {
+        display: none;
+    }
+
+    .mobile-menus {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-menus a:nth-child(4) {
+        color: var(--redColor);
+    }
+}
+
+@media screen and (min-width:992px) {
+    .navbar-mobile {
+        display: none;
+    }
+
+    .navbar-links {
+        display: flex;
+
+    }
+}

@@ -1,0 +1,78 @@
+.side {
+    font-family: var(--bebasNeue);
+}
+
+
+.side .card-holder {
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.side .card-holder .side-card {
+    padding: 20px;
+}
+
+.side .card-holder .side-card h1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-image: linear-gradient(to right,
+            var(--bs-cyan),
+            var(--bs-cyan) 50%,
+            var(--colorDark) 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.side .card-holder .side-card h1:hover {
+    background-position: 0;
+}
+
+.side .card-holder .side-card p {
+    margin-top: .8rem;
+    text-align: center;
+}
+
+.side .card-holder .side-card p:nth-child(2) {
+    color: var(--bs-cyan);
+}
+
+.side .card-holder .side-card p:nth-child(3) {
+    font-size: 14px;
+}
+
+@media screen and (min-width:768px) {
+
+    .side .card-holder {
+        flex-direction: row;
+    }
+
+
+    .side .card-holder .side-card {
+        margin-right: 1rem;
+        width: auto;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .side .card-holder {
+        flex-direction: column;
+    }
+
+    .side .card-holder .side-card p{
+        display: inline-block;
+    }
+
+    .side .card-holder .side-card p:nth-child(2){
+        margin-right: .5rem;
+    }
+
+   
+}

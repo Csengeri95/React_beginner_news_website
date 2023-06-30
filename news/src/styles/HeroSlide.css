@@ -1,0 +1,42 @@
+.heroSlide .Grid {
+    background-color: var(--colorGray) !important;
+    border: none !important;
+    box-shadow: none !important;
+
+}
+
+.heroSlide .Grid .title {
+    color: var(--colorDark);
+    font-family: var(--bebasNeue) !important;
+    cursor: pointer;
+    background-image: linear-gradient(to right,
+            var(--bs-cyan),
+            var(--bs-cyan) 50%,
+            var(--borderDark) 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 0 0 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+    text-align: left !important;
+}
+
+
+
+.heroSlide .Grid .title:hover {
+    background-position: 0;
+}
+
+.heroSlide .Grid .author {
+    color: var(--bs-cyan) !important;
+    font-family: var(--bebasNeue) !important;
+    font-size: 1rem !important;
+}
+
+.heroSlide .Grid .date {
+    font-family: var(--bebasNeue) !important;
+    font-weight: 500;
+}

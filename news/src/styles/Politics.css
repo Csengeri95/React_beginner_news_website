@@ -1,0 +1,128 @@
+.politics {
+    font-family: var(--bebasNeue);
+    min-height: 82vh;
+}
+
+.politics .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.politics .main .articles {
+    flex-direction: column;
+    border: none;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    width: 95%;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 5px;
+
+}
+
+.politics .main .articles:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.politics .main .articles::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0.4px;
+    background-color: var(--colorDark);
+}
+
+.politics .main .articles img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+
+.politics .main .articles .articles-body h2 {
+    color: var(--orange);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.politics .main .articles .articles-body h3 {
+    font-weight: 400;
+}
+
+
+.politics .pagination {
+    width: 80%;
+    height: 25px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.politics .pagination a {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.politics .pagination a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.politics .pagination .paginationActive a {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--colorDark);
+}
+
+
+
+
+@media screen and (min-width:720px) {
+    .politics .main .articles {
+        flex-direction: row;
+        height: auto;
+    }
+
+
+}
+
+@media screen and (min-width:1160px) {
+    .politics .main .articles {
+        width: 85%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .politics .main .articles {
+        width: 70%;
+        max-height: 200px;
+    }
+}
+
+@media screen and (min-width:720px) {
+    .politics .main .articles img {
+        width: 40%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:720px) {
+    .politics .main .articles .articles-body {
+        padding-left: 20px;
+    }
+
+    .politics .main .articles .articles-body h2,
+    h3,
+    p {
+        margin-bottom: .3rem;
+    }
+}

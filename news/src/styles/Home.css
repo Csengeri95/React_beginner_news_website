@@ -1,0 +1,6 @@
+.home hr {
+
+    background-color: var(--bs-cyan);
+    margin: 0 auto 2rem auto !important;
+    height: 3px;
+}

@@ -1,0 +1,7 @@
+.profile {
+    min-height: 82vh;
+}
+
+.profile .container {
+    flex-direction: column;
+}
