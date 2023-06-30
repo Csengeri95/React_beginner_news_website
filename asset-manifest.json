@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React_beginner_news_website/static/css/main.b5629c34.css",
-    "main.js": "/React_beginner_news_website/static/js/main.263f3534.js",
+    "main.js": "/React_beginner_news_website/static/js/main.95dc5187.js",
     "static/media/hero9.jpg": "/React_beginner_news_website/static/media/hero9.faa3a5c7a4f7e38af7ab.jpg",
     "static/media/hero4.jpg": "/React_beginner_news_website/static/media/hero4.3651c9d5676daee4554a.jpg",
     "static/media/hero2.jpg": "/React_beginner_news_website/static/media/hero2.fa36066f92ce985d2af3.jpg",
@@ -21,10 +21,10 @@
     "static/media/kissIstvan.jpg": "/React_beginner_news_website/static/media/kissIstvan.23b4c1ec51e002bc35b7.jpg",
     "index.html": "/React_beginner_news_website/index.html",
     "main.b5629c34.css.map": "/React_beginner_news_website/static/css/main.b5629c34.css.map",
-    "main.263f3534.js.map": "/React_beginner_news_website/static/js/main.263f3534.js.map"
+    "main.95dc5187.js.map": "/React_beginner_news_website/static/js/main.95dc5187.js.map"
   },
   "entrypoints": [
     "static/css/main.b5629c34.css",
-    "static/js/main.263f3534.js"
+    "static/js/main.95dc5187.js"
   ]
 }
