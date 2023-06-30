@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/React_beginner_news_website/static/css/main.b5629c34.css",
+    "main.js": "/React_beginner_news_website/static/js/main.263f3534.js",
+    "static/media/hero9.jpg": "/React_beginner_news_website/static/media/hero9.faa3a5c7a4f7e38af7ab.jpg",
+    "static/media/hero4.jpg": "/React_beginner_news_website/static/media/hero4.3651c9d5676daee4554a.jpg",
+    "static/media/hero2.jpg": "/React_beginner_news_website/static/media/hero2.fa36066f92ce985d2af3.jpg",
+    "static/media/hero10.jpg": "/React_beginner_news_website/static/media/hero10.f725b4f7dc713b18eba0.jpg",
+    "static/media/hero1.jpg": "/React_beginner_news_website/static/media/hero1.8bf170d72d4f9a8942aa.jpg",
+    "static/media/hero6.jpg": "/React_beginner_news_website/static/media/hero6.cd4c9ab26661f4d27c2b.jpg",
+    "static/media/hero7.jpg": "/React_beginner_news_website/static/media/hero7.cde9b7d4b46ea2d35052.jpg",
+    "static/media/hero3.jpg": "/React_beginner_news_website/static/media/hero3.fc1b113a75dc9227f857.jpg",
+    "static/media/hero8.jpg": "/React_beginner_news_website/static/media/hero8.4b45f2b903cb162bd87d.jpg",
+    "static/media/vargaIzabella.jpg": "/React_beginner_news_website/static/media/vargaIzabella.8846613df71105144219.jpg",
+    "static/media/hero5.jpg": "/React_beginner_news_website/static/media/hero5.fb2b82060a75f23308be.jpg",
+    "static/media/lengyelRoza.jpg": "/React_beginner_news_website/static/media/lengyelRoza.813e0a540335aea7750b.jpg",
+    "static/media/szaboKalman.jpg": "/React_beginner_news_website/static/media/szaboKalman.7841a6371911ba40df8e.jpg",
+    "static/media/aratoJozsef.jpg": "/React_beginner_news_website/static/media/aratoJozsef.6d5e3383ba51aa3ab42b.jpg",
+    "static/media/nagyRebeka.jpg": "/React_beginner_news_website/static/media/nagyRebeka.4f7a0d5d996100ac88fd.jpg",
+    "static/media/gyepesPiroska.jpg": "/React_beginner_news_website/static/media/gyepesPiroska.0c3ebbcb3ce1840de872.jpg",
+    "static/media/kissIstvan.jpg": "/React_beginner_news_website/static/media/kissIstvan.23b4c1ec51e002bc35b7.jpg",
+    "index.html": "/React_beginner_news_website/index.html",
+    "main.b5629c34.css.map": "/React_beginner_news_website/static/css/main.b5629c34.css.map",
+    "main.263f3534.js.map": "/React_beginner_news_website/static/js/main.263f3534.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5629c34.css",
+    "static/js/main.263f3534.js"
+  ]
+}
